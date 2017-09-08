@@ -1,0 +1,23 @@
+{
+    "name": "brayun/aliyun-core",
+    "description": "Aliyun Core SDK for PHP",
+    "keywords": [ "aliyun", "sdk" ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "homepage": "https://www.brayun.com",
+    "authors": [
+        {
+            "name": "Ethan",
+            "homepage": "https://www.brayun.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Aliyun\\": "src/"
+        }
+    }
+}
